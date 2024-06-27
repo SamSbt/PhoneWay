@@ -11,8 +11,8 @@
 
 <body>
 
-
-  <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
-  <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<!-- import du bundle contenant Bootstrap & Popper (pour dropdown) -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
