@@ -12,11 +12,11 @@
 
 <body>
 
-  <?php require __DIR__ . "../templates/navbar.php"; ?>
+  <?php require __DIR__ . "../views/templates/navbar.php"; ?>
   <main>
-    <?php require __DIR__ . "../views/index.view.php"; ?>
+    <?php require __DIR__ . "/router.php"; ?>
   </main>
-  <?php require __DIR__ . "../templates/footer.php"; ?>
+  <?php require __DIR__ . "../views/templates/footer.php"; ?>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
