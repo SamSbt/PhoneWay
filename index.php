@@ -10,6 +10,18 @@
 <body>
   
 
+
+<?php
+
+require __DIR__ . "../src/includes/navbar.php";
+
+?>
+
 <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
