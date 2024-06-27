@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
   <title>PHONE WAY</title>
 </head>
@@ -14,9 +15,11 @@
 
 
   <?php
-
   require __DIR__ . "../src/includes/navbar.php";
 
+  require __DIR__ . "../src/includes/index.view.php";
+
+  require __DIR__ . "../src/includes/footer.php";
   ?>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
