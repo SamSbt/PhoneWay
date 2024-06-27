@@ -1,5 +1,5 @@
-<footer class="bg-dark text-white mt-5">
-  <div class="container-fluid py-4">
+<footer class="bg-dark text-white mt-5 w-100 position-absolute bottom-0 footerStyle">
+  <div class="container-fluid pt-4">
     <div class="row text-center">
       <div class="col-md-4">
         <h5>A propos</h5>
@@ -23,8 +23,8 @@
         </address>
       </div>
     </div>
-    <div class="row mt-4">
-      <div class="col-12 text-center">
+    <div class="row mt-2">
+      <div class="col-12 text-center pb-2">
         <p>&copy; 2024 Phone WAY. Tous droits reservés.</p>
       </div>
     </div>

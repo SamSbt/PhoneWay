@@ -8,9 +8,45 @@
     list-style: none;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+main {
+    margin-bottom: 200px;
+}
+/* footer style */
+.footerStyle address, p {
+    margin-bottom: 0 !important;
+}
+
+
 
 .nav-link.active {
     font-weight: bold;
     color: #000;
     text-decoration: underline;
 }
+
+
+.dropdown-item {
+    border-color: #fff;
+}
+
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: #747272 !important;
+    --bs-dropdown-link-active-bg: #424141 !important;
+    --bs-dropdown-border-color: #fff;
+}
+
+
+.btn-outline-dark {
+    --bs-btn-color: #fff !important;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-bg: #747272;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-active-bg: #424141;
+    --bs-btn-active-border-color: #fff;
+}
+

@@ -14,7 +14,7 @@
 
   <?php require __DIR__ . "../templates/navbar.php"; ?>
   <main>
-    <h1>Ceci est ma page "Articles".</h1>
+    <h1>Ceci est ma page "Tagg".</h1>
   </main>
   <?php require __DIR__ . "../templates/footer.php"; ?>
 
