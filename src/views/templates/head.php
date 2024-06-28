@@ -6,19 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style.css">
   <title>PHONE WAY</title>
 </head>
 
 <body>
-
-  <?php require __DIR__ . "../src/includes/navbar.php"; ?>
-  <main>
-    <h1>OUPS, t es perdu ou bien ?</h1>
-  </main>
-  <?php require __DIR__ . "../src/includes/footer.php"; ?>
-
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>

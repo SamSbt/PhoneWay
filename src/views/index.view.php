@@ -12,7 +12,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Titre de l'article</h5>
                   <p class="card-text mb-2">Phrase-exemple écrite sur la carte. Izoké, ça rend bien.</p>
-                  <span>Série: <a href="#" class="btn btn-dark">Go somewhere</a></span>
+                  <span>Série: <a href="#" class="btn btn-dark">yolo</a></span>
                 </div>
               </div>
             </div>
