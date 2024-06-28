@@ -1,2 +1,2 @@
 <h4>ceci est ma page Tag.</h4>
-<?php require __DIR__ . "/../src/views/index.view.php"; ?>
+<?php require __DIR__ . "/../views/index.view.php"; ?>
