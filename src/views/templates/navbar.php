@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-dark">
+<nav class="navbar navbar-expand-md bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand ms-5 <?php if ($_SERVER['REQUEST_URI'] === '/'); ?>" href="/"><img src="assets/img/logo_2023.png" alt="Logo" width="40" class="d-inline-block align-text-top"></a>
 

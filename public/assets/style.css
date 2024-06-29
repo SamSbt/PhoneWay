@@ -8,12 +8,13 @@
     list-style: none;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
 main {
-    margin-bottom: 180px;
+    padding-top: calc(4rem + 5px);
+    padding-bottom: calc(6rem + 10px);
 }
 
 /* navbar style */

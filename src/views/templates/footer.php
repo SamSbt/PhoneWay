@@ -1,5 +1,5 @@
-<footer class="bg-dark text-white mt-5 w-100 position-absolute bottom-0 footerStyle">
-  <div class="container-fluid pt-4">
+<footer class="bg-dark text-white w-100 fixed-bottom footerStyle">
+  <div class="container-fluid pt-2 g-0">
     <div class="row text-center">
       <div class="col-md-4">
         <h5>A propos</h5>
@@ -16,7 +16,7 @@
       </div>
       <div class="col-md-4">
         <h5>Contactez-nous</h5>
-        <address>
+        <address class="mb-0">
           1 Rue de l'Eglise<br>
           00000 Provincie<br>
           <span title="Phone">Tel:</span> 01 23 45 67 89
@@ -24,8 +24,8 @@
       </div>
     </div>
     <div class="row mt-2">
-      <div class="col-12 text-center pb-2">
-        <p>&copy; 2024 Phone WAY. Tous droits reservés.</p>
+      <div class="col-12 text-center mb-1">
+        <p class="mb-0">&copy; 2024 Phone WAY. Tous droits reservés.</p>
       </div>
     </div>
   </div>

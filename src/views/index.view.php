@@ -1,5 +1,5 @@
       <section class="container my-5">
-        <div class="row ">
+        <div class="row">
           <?php for ($i = 0; $i < 12; $i++) : ?>
             <?php
             $random_number = rand(1, 200);
@@ -10,9 +10,9 @@
               <div class="card" style="width: 15rem;">
                 <img src="<?= $image_url; ?>" class="card-img-top" alt="Photo de présentation de l'article">
                 <div class="card-body">
-                  <h5 class="card-title"><?= $article['Titre'] ?></h5>
-                  <p class="card-text mb-2"><?= $article['Descrition'] ?></p>
-                  <span>Série: <a href="#" class="btn btn-dark">yolo</a></span>
+                  <h5 class="card-title">Ceci est un titre !</h5>
+                  <p class="card-text mb-2">Wesh sisi la description ici, tavu, faut une phrase un peu longue. Voilà, merci.</p>
+                  <span>Série: <a href="#" class="btn btn-dark rounded-5">yolo</a></span>
                 </div>
               </div>
             </div>

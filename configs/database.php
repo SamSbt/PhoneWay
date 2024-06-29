@@ -1,4 +1,4 @@
-<?php
+<!-- ?php
 require_once __DIR__ . '/../configs/db.config.php';
 
 
@@ -19,4 +19,4 @@ try {
 } catch (PDOException $e) {
   echo "Erreur de connexion : " . $e->getMessage();
   exit;
-}
+} -->
