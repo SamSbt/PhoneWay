@@ -7,6 +7,7 @@ $routes = [
   '/articles' => __DIR__ . '/src/controllers/articles.controller.php',
   '/tag' => __DIR__ . '/src/controllers/tag.controller.php',
   '/connexion' => __DIR__ . '/src/controllers/login.controller.php',
+  '/insription' => __DIR__ . '/src/controllers/register.controller.php',
 
 ];
 

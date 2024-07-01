@@ -17,8 +17,7 @@
       <div class="col-md-4">
         <h5>Contactez-nous</h5>
         <address class="mb-0">
-          1 Rue de l'Eglise<br>
-          00000 Provincie<br>
+          1 Rue de l'Eglise 31000 Toulousie<br>
           <span title="Phone">Tel:</span> 01 23 45 67 89
         </address>
       </div>

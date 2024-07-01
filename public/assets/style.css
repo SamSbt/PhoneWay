@@ -65,12 +65,10 @@ p, span {
 /* footer style */
 .footerStyle address, .footerStyle p {
     font-size: 0.8rem;
+    margin-bottom: 0 !important;
 }
 .footerStyle h5 {
     font-size: 0.9rem;
-}
-.footerStyle address {
-    margin-bottom: 0 !important;
 }
 
 

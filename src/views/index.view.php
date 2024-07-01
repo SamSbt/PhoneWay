@@ -16,7 +16,7 @@ shuffle($articles);
         ?>
 
         <div class="d-flex justify-content-center col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="card" style="width: 15rem;">
+          <div class="card" style="width: 20rem;">
             <img src="<?= $image_url; ?>" class="card-img-top" alt="Photo de présentation de l'article">
             <div class="card-body">
               <h6 class="card-title"><?= $article['Titre'] ?></h6>
