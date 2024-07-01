@@ -1,12 +1,12 @@
-<?php 
+<?php
 require_once __DIR__ . "/templates/head.php";
-require __DIR__ . "/templates/navbar.php"; 
+require __DIR__ . "/templates/navbar.php";
 
 //mélanger l'ordre des articles
 shuffle($articles);
 ?>
 
-<main>
+<main class="d-flex justify-content-center align-items-center flex-column">
   <section class="container my-5">
     <div class="row">
       <?php foreach ($articles as $article) { ?>
@@ -31,6 +31,6 @@ shuffle($articles);
   </section>
 </main>
 
-<?php 
+<?php
 require __DIR__ . "/templates/footer.php";
 require __DIR__ . "/templates/foot.php"; ?>

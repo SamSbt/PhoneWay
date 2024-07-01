@@ -13,8 +13,10 @@ html, body {
     overflow-x: hidden;
 }
 main {
-    padding-top: calc(4rem + 5px);
-    padding-bottom: calc(6rem + 10px);
+    padding-top: 50px;
+    padding-bottom: 90px;
+    min-height: calc(100vh - 140px);
+
 }
 p, span {
     font-size: 0.9rem;
@@ -25,10 +27,10 @@ p, span {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #424141;
+    background: #212529;
 }
 ::-webkit-scrollbar-thumb {
     background: #747272;

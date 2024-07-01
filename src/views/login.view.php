@@ -2,7 +2,7 @@
 require_once __DIR__ . "/templates/head.php";
 require __DIR__ . "/templates/navbar.php"; ?>
 
-<main>
+<main class="d-flex justify-content-center align-items-center flex-column">
   <section class="container my-5 d-flex justify-content-center align-items-center">
     <div class="row loginFormStyle d-flex justify-content-center align-items-center">
       <h2 class="mb-4 text-center">Bon retour parmi nous !</h2>
