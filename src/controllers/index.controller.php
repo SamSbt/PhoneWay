@@ -36,6 +36,6 @@
         echo "Erreur de connexion : " . $e->getMessage();
         exit;
       }
-      ?>
+      
 
-<?php require __DIR__ . "/../views/index.view.php";
+require __DIR__ . "/../views/index.view.php";

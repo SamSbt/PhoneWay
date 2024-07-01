@@ -1,20 +1,19 @@
-<?php require_once __DIR__ . "/templates/head.php"; ?>
-<?php require __DIR__ . "/templates/navbar.php"; ?>
-<main>
+<?php 
+require_once __DIR__ . "/templates/head.php";
+require __DIR__ . "/templates/navbar.php"; 
 
+//mélanger l'ordre des articles
+shuffle($articles);
+?>
+
+<main>
   <section class="container my-5">
     <div class="row">
       <?php foreach ($articles as $article) { ?>
         <?php
         $random_number = rand(1, 200);
         $image_url = "https://picsum.photos/200/100?random=" . $random_number;
-
-        $random_articles = range(1, 150);
-        shuffle($random_articles);
         ?>
-
-
-
 
         <div class="d-flex justify-content-center col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="card" style="width: 15rem;">
@@ -30,7 +29,8 @@
       <?php } ?>
     </div>
   </section>
-
 </main>
-<?php require __DIR__ . "/templates/footer.php"; ?>
-<?php require __DIR__ . "/templates/foot.php"; ?>
+
+<?php 
+require __DIR__ . "/templates/footer.php";
+require __DIR__ . "/templates/foot.php"; ?>
