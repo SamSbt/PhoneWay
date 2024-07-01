@@ -3,9 +3,9 @@
     <div class="row text-center">
       <div class="col-md-4">
         <h5>A propos</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p class="ps-2"">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
       </div>
-      <div class="col-md-4">
+      <div class=" col-md-4">
         <h5>Réseaux sociaux</h5>
         <ul class="list-inline">
           <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>

@@ -4,7 +4,7 @@
 
   <section class="container my-5">
     <div class="row text-center">
-      <h3>OUPS, t es perdu ou bien ?</h3>
+      <h4>Ceci est ma page Articles.</h4>
     </div>
   </section>
 

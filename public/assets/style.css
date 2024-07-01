@@ -16,6 +16,23 @@ main {
     padding-top: calc(4rem + 5px);
     padding-bottom: calc(6rem + 10px);
 }
+p, span {
+font-size: 0.9rem;
+}
+.btn {
+    --bs-btn-font-size: 0.9rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #424141;
+}
+::-webkit-scrollbar-thumb {
+    background: #747272;
+}
 
 /* navbar style */
 .dropdown-item {
@@ -35,6 +52,12 @@ main {
 }
 
 /* footer style */
-.footerStyle address, p {
-    margin-bottom: 0 !important;
+.footerStyle address, .footerStyle p {
+    font-size: 0.8rem;
+}
+.footerStyle h5 {
+    font-size: 0.9rem;
+}
+.footerStyle address {
+margin-bottom: 0 !important;
 }

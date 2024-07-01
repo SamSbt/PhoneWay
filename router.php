@@ -13,15 +13,15 @@ function routeToController($uri, $routes)
   if (array_key_exists($uri, $routes)) {
     require $routes[$uri];
   } else {
-    // abort();
+    abort();
   }
 }
 
-// function abort($code = 404)
-// {
-//   http_response_code($code);
-//   require __DIR__ . "/views/{$code}.php";
-//   die();
-// }
+function abort($code = 404)
+{
+  http_response_code($code);
+  require __DIR__ . "/src/views/{$code}.php";
+  die();
+}
 
 routeToController($uri, $routes);
