@@ -6,6 +6,8 @@ $routes = [
   '/' => __DIR__ . '/src/controllers/index.controller.php',
   '/articles' => __DIR__ . '/src/controllers/articles.controller.php',
   '/tag' => __DIR__ . '/src/controllers/tag.controller.php',
+  '/connexion' => __DIR__ . '/src/controllers/login.controller.php',
+
 ];
 
 function routeToController($uri, $routes)
