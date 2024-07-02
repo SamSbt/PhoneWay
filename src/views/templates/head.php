@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="/assets/bootstrap.css">
   <link rel="stylesheet" href="/assets/bootstrap.icons.css">
   <link rel="stylesheet" href="/assets/style.css">
-  <title>PHONE WAY</title>
+  <!-- si titre pas référencé, mettre celui entre "" -->
+  <title><?=$titre ?? "Phone Way" ?></title>
 </head>
 
 <body>

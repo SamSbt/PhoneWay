@@ -1,4 +1,5 @@
 <?php
+$titre = "Phone Way Inscription";
 require_once __DIR__ . "/templates/head.php";
 require __DIR__ . "/templates/navbar.php"; ?>
 
@@ -14,6 +15,10 @@ require __DIR__ . "/templates/navbar.php"; ?>
         <div class="mb-3">
           <label for="inputPrenom" class="form-label">Prénom :</label>
           <input type="text" class="form-control" id="inputPrenom" placeholder="Entrez votre prénom" required>
+        </div>
+        <div class="mb-3">
+          <label for="inputPseudo" class="form-label">Pseudo :</label>
+          <input type="text" class="form-control" id="inputPseudo" placeholder="Entrez votre pseudo" required>
         </div>
         <div class="mb-3">
           <label for="inputEmail" class="form-label">Adresse Email :</label>

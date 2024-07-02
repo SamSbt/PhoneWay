@@ -1,4 +1,5 @@
 <?php
+$titre = "Phone Way Tag";
 require_once __DIR__ . "/templates/head.php";
 require __DIR__ . "/templates/navbar.php"; ?>
 
